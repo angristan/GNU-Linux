@@ -1,0 +1,17 @@
+{
+"manifest_version": 1,
+    "name": "Replace Linux with GNU/Linux",
+    "description": "Put Richard in your web browser\".",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
