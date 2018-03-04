@@ -1,7 +1,7 @@
 {
 "manifest_version": 2,
     "name": "Replace Linux with GNU/Linux",
-    "description": "Put Richard in your web browser\".",
+    "description": "Put Richard in your web browser.",
     "version": "1.0",
     "content_scripts": [
         {
